@@ -14,7 +14,7 @@ import { PostsModule } from './posts/posts.module';
     PostsModule,
     AppRoutingModule,
     StoreModule.forRoot({}),
-    EffectsModule.forRoot([]),
+    EffectsModule.forRoot(),
     StoreDevtoolsModule.instrument({
       maxAge: 25,
       logOnly: !isDevMode(),
